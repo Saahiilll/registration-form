@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #838285;
+}
+.form{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: lavender;
+}
+.reg{
+    text-align: center;
+}
+#name{
+    margin-left: 9%;
+}
+#address{
+    margin-left: 7%;
+}
+#city{
+    margin-left: 11%;
+
+}
+#date{
+    margin-left: 8.3%;
+}
+#email{
+    margin-left: 9%;
+}
+#number{
+    
+}
+.hbby{
+    margin-left: 5%;
+}
+#file{
+    margin-left: 3%;
+}
+.sbmt{
+    margin-left: 35%;
+    margin-top: 4%;
+}
+
+#nm{
+    margin-left: 5%;
+}
+#as{ margin-left: 5%;
+    
+}
+#cy{
+    margin-left: 5%;
+}
+#db{
+    margin-left: 5%;
+}
+#el{
+    margin-left: 5%;
+}
+#nr{
+    margin-left: 5%;
+}
+#hy{
+    margin-left: 5%;
+}
+#gr{
+    margin-left: 5%;
+}
+#fe{
+    margin-left: 5%;
+}

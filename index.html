@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="form">
+
+        <h1 class="reg">Registration Form</h1>
+        <form id="register" action="#" method="get">
+            <label id="nm">Name:</label>
+            <input type="text" name="fname" id="name" >
+            <br>
+            <br>
+            <label id="as">Address:</label>
+            <input type="textarea"  name="address" id="address" >
+            <br>
+            <br>
+            <label id="cy">City:</label>
+            
+            <select id="city">
+                <option>Amravati</option>
+                <option>Mumbai</option>
+                <option>Nagpur</option>
+                <option>Pune</option>
+            </select>
+            <br>
+            <br>
+            <label id="db">D.O.B:</label>
+            <input type="date" name="date" id="date">
+            <br>
+            <br>
+            <label id="el" >Email:</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <br>
+            <label id="nr">Phone Number:</label>
+            <input type="number" name="number" id="number">
+            <br>
+            <br>
+            <label id="hy">Hobby:</label>
+            
+
+                <input type="checkbox" name="h1" value="Cricket">Cricket
+                <input type="checkbox" name="h2" value="Football">Football
+                <input type="checkbox" name="h3" value="Tennis">Tennis
+                <input type="checkbox" name="h4" value="Chess">Chess
+            
+            <br>
+            <br>
+            <label id="gr">Gender:</label>
+            <input type="radio" name="male" checked="checked">Male &nbsp;&nbsp;&nbsp; <input type="radio" name="male">Female
+            <br>
+            <br>
+            <label id="fe">Attachment:</label>
+            <input type="file" name="file" id="file">
+            <br>
+            <br>
+            <div class="sbmt">
+
+                <input type="submit" name="submit" id="submit" value="Register Me">
+                <input type="reset" name="reset" id="reset" value="Clear Me">
+            </div>
+            <br>
+            <br>
+        </form>
+    </div>
+    </body>
+    </html>
